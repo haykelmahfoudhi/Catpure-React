@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { About } from "../styles";
 import Toggle from "./Toggle";
 import { AnimateSharedLayout } from "framer-motion";
-import { fade, scrollReveal } from "../animation";
+import { scrollReveal } from "../animation";
 import { useScroll } from "./useScroll";
 
 const FaqSection = () => {

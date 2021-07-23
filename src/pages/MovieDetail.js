@@ -19,7 +19,7 @@ const MovieDetail = () => {
   }, [movies, url]);
   console.log(movie);
   return (
-    <motion
+    <motion.div
       variants={pageAnimation}
       initial="hidden"
       animate="show"
@@ -45,7 +45,7 @@ const MovieDetail = () => {
           </ImageDisplay>
         </Details>
       )}
-    </motion>
+    </motion.div>
   );
 };
 
